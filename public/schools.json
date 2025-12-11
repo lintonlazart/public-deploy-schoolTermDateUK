@@ -1,0 +1,2208 @@
+[
+  {
+    "id": "101188",
+    "name": "Dorothy Barley Infants' School",
+    "type": "Local authority maintained schools",
+    "address": {
+      "street": "Davington Road",
+      "locality": "",
+      "address3": "",
+      "town": "Dagenham",
+      "county": "Essex",
+      "postcode": "RM8 2LL"
+    },
+    "contact": {
+      "website": "http://www.dorothybarleyinfant.co.uk",
+      "telephone": "2082704655"
+    },
+    "council": "Barking and Dagenham",
+    "terms": {
+      "autumn": {
+        "start": "2025-09-01",
+        "halfTerm": {
+          "start": "2025-10-27",
+          "end": "2025-10-31"
+        },
+        "end": "2025-12-19"
+      },
+      "spring": {
+        "start": "2026-01-05",
+        "halfTerm": {
+          "start": "2026-02-16",
+          "end": "2026-02-20"
+        },
+        "end": "2026-03-27"
+      },
+      "summer": {
+        "start": "2026-04-13",
+        "halfTerm": {
+          "start": "2026-05-25",
+          "end": "2026-05-29"
+        },
+        "end": "2026-07-21"
+      }
+    },
+    "insetDates": [],
+    "holidays": [
+      "2026-01-01",
+      "2026-04-03",
+      "2026-04-06",
+      "2026-05-04",
+      "2026-05-25",
+      "2026-08-31",
+      "2026-12-25",
+      "2026-12-28"
+    ]
+  },
+  {
+    "id": "101192",
+    "name": "Manor Junior School",
+    "type": "Local authority maintained schools",
+    "address": {
+      "street": "Sandringham Road",
+      "locality": "",
+      "address3": "",
+      "town": "Barking",
+      "county": "Essex",
+      "postcode": "IG11 9AG"
+    },
+    "contact": {
+      "website": "http://www.manorjunior.co.uk",
+      "telephone": "2082704641"
+    },
+    "council": "Barking and Dagenham",
+    "terms": {
+      "autumn": {
+        "start": "2025-09-01",
+        "halfTerm": {
+          "start": "2025-10-27",
+          "end": "2025-10-31"
+        },
+        "end": "2025-12-19"
+      },
+      "spring": {
+        "start": "2026-01-05",
+        "halfTerm": {
+          "start": "2026-02-16",
+          "end": "2026-02-20"
+        },
+        "end": "2026-03-27"
+      },
+      "summer": {
+        "start": "2026-04-13",
+        "halfTerm": {
+          "start": "2026-05-25",
+          "end": "2026-05-29"
+        },
+        "end": "2026-07-21"
+      }
+    },
+    "insetDates": [
+      "2025-09-01",
+      "2025-10-24",
+      "2026-01-05",
+      "2026-02-13",
+      "2026-07-21"
+    ],
+    "holidays": [
+      "2026-01-01",
+      "2026-04-03",
+      "2026-04-06",
+      "2026-05-04",
+      "2026-05-25",
+      "2026-08-31",
+      "2026-12-25",
+      "2026-12-28"
+    ]
+  },
+  {
+    "id": "101193",
+    "name": "Manor Primary School",
+    "type": "Local authority maintained schools",
+    "address": {
+      "street": "40 Scholars Way",
+      "locality": "",
+      "address3": "",
+      "town": "Dagenham",
+      "county": "",
+      "postcode": "RM8 2FL"
+    },
+    "contact": {
+      "website": "https://manorprimary.barking-dagenham.sch.uk",
+      "telephone": "2082706630"
+    },
+    "council": "Barking and Dagenham",
+    "terms": {
+      "autumn": {
+        "start": "2025-09-01",
+        "halfTerm": {
+          "start": "2025-10-27",
+          "end": "2025-10-31"
+        },
+        "end": "2025-12-19"
+      },
+      "spring": {
+        "start": "2026-01-05",
+        "halfTerm": {
+          "start": "2026-02-16",
+          "end": "2026-02-20"
+        },
+        "end": "2026-03-27"
+      },
+      "summer": {
+        "start": "2026-04-13",
+        "halfTerm": {
+          "start": "2026-05-25",
+          "end": "2026-05-29"
+        },
+        "end": "2026-07-21"
+      }
+    },
+    "insetDates": [],
+    "holidays": [
+      "2026-01-01",
+      "2026-04-03",
+      "2026-04-06",
+      "2026-05-04",
+      "2026-05-25",
+      "2026-08-31",
+      "2026-12-25",
+      "2026-12-28"
+    ]
+  },
+  {
+    "id": "101196",
+    "name": "Northbury Primary School",
+    "type": "Local authority maintained schools",
+    "address": {
+      "street": "Northbury Close",
+      "locality": "",
+      "address3": "",
+      "town": "Barking",
+      "county": "Essex",
+      "postcode": "IG11 8JA"
+    },
+    "contact": {
+      "website": "www.northburyprimary.co.uk",
+      "telephone": "2082704750"
+    },
+    "council": "Barking and Dagenham",
+    "terms": {
+      "autumn": {
+        "start": "2025-09-01",
+        "halfTerm": {
+          "start": "2025-10-27",
+          "end": "2025-10-31"
+        },
+        "end": "2025-12-19"
+      },
+      "spring": {
+        "start": "2026-01-05",
+        "halfTerm": {
+          "start": "2026-02-16",
+          "end": "2026-02-20"
+        },
+        "end": "2026-03-27"
+      },
+      "summer": {
+        "start": "2026-04-13",
+        "halfTerm": {
+          "start": "2026-05-25",
+          "end": "2026-05-29"
+        },
+        "end": "2026-07-21"
+      }
+    },
+    "insetDates": [],
+    "holidays": [
+      "2026-01-01",
+      "2026-04-03",
+      "2026-04-06",
+      "2026-05-04",
+      "2026-05-25",
+      "2026-08-31",
+      "2026-12-25",
+      "2026-12-28"
+    ]
+  },
+  {
+    "id": "101198",
+    "name": "Ripple Primary School",
+    "type": "Local authority maintained schools",
+    "address": {
+      "street": "Suffolk Road",
+      "locality": "",
+      "address3": "",
+      "town": "Barking",
+      "county": "Essex",
+      "postcode": "IG11 7QS"
+    },
+    "contact": {
+      "website": "www.rippleprimary.co.uk",
+      "telephone": "2082704670"
+    },
+    "council": "Barking and Dagenham",
+    "terms": {
+      "autumn": {
+        "start": "2025-09-01",
+        "halfTerm": {
+          "start": "2025-10-27",
+          "end": "2025-10-31"
+        },
+        "end": "2025-12-19"
+      },
+      "spring": {
+        "start": "2026-01-05",
+        "halfTerm": {
+          "start": "2026-02-16",
+          "end": "2026-02-20"
+        },
+        "end": "2026-03-27"
+      },
+      "summer": {
+        "start": "2026-04-13",
+        "halfTerm": {
+          "start": "2026-05-25",
+          "end": "2026-05-29"
+        },
+        "end": "2026-07-21"
+      }
+    },
+    "insetDates": [],
+    "holidays": [
+      "2026-01-01",
+      "2026-04-03",
+      "2026-04-06",
+      "2026-05-04",
+      "2026-05-25",
+      "2026-08-31",
+      "2026-12-25",
+      "2026-12-28"
+    ]
+  },
+  {
+    "id": "101202",
+    "name": "Beam Primary School",
+    "type": "Local authority maintained schools",
+    "address": {
+      "street": "Oval Road North",
+      "locality": "",
+      "address3": "",
+      "town": "Dagenham",
+      "county": "Essex",
+      "postcode": "RM10 9ED"
+    },
+    "contact": {
+      "website": "www.beamcountyprimaryschool.co.uk",
+      "telephone": "2082704700"
+    },
+    "council": "Barking and Dagenham",
+    "terms": {
+      "autumn": {
+        "start": "2025-09-01",
+        "halfTerm": {
+          "start": "2025-10-27",
+          "end": "2025-10-31"
+        },
+        "end": "2025-12-19"
+      },
+      "spring": {
+        "start": "2026-01-05",
+        "halfTerm": {
+          "start": "2026-02-16",
+          "end": "2026-02-20"
+        },
+        "end": "2026-03-27"
+      },
+      "summer": {
+        "start": "2026-04-13",
+        "halfTerm": {
+          "start": "2026-05-25",
+          "end": "2026-05-29"
+        },
+        "end": "2026-07-21"
+      }
+    },
+    "insetDates": [],
+    "holidays": [
+      "2026-01-01",
+      "2026-04-03",
+      "2026-04-06",
+      "2026-05-04",
+      "2026-05-25",
+      "2026-08-31",
+      "2026-12-25",
+      "2026-12-28"
+    ]
+  },
+  {
+    "id": "101203",
+    "name": "Furze Infant School",
+    "type": "Local authority maintained schools",
+    "address": {
+      "street": "Bennett Road",
+      "locality": "Chadwell Heath",
+      "address3": "",
+      "town": "Romford",
+      "county": "Essex",
+      "postcode": "RM6 6ES"
+    },
+    "contact": {
+      "website": "http://furzeinfants.schooljotter2.com",
+      "telephone": "2082704420"
+    },
+    "council": "Barking and Dagenham",
+    "terms": {
+      "autumn": {
+        "start": "2025-09-01",
+        "halfTerm": {
+          "start": "2025-10-27",
+          "end": "2025-10-31"
+        },
+        "end": "2025-12-19"
+      },
+      "spring": {
+        "start": "2026-01-05",
+        "halfTerm": {
+          "start": "2026-02-16",
+          "end": "2026-02-20"
+        },
+        "end": "2026-03-27"
+      },
+      "summer": {
+        "start": "2026-04-13",
+        "halfTerm": {
+          "start": "2026-05-25",
+          "end": "2026-05-29"
+        },
+        "end": "2026-07-21"
+      }
+    },
+    "insetDates": [],
+    "holidays": [
+      "2026-01-01",
+      "2026-04-03",
+      "2026-04-06",
+      "2026-05-04",
+      "2026-05-25",
+      "2026-08-31",
+      "2026-12-25",
+      "2026-12-28"
+    ]
+  },
+  {
+    "id": "101206",
+    "name": "Grafton Primary School",
+    "type": "Local authority maintained schools",
+    "address": {
+      "street": "Grafton Primary School",
+      "locality": "Grafton Road",
+      "address3": "",
+      "town": "Dagenham",
+      "county": "Essex",
+      "postcode": "RM8 3EX"
+    },
+    "contact": {
+      "website": "www.graftonprimary.co.uk/",
+      "telephone": "2037275171"
+    },
+    "council": "Barking and Dagenham",
+    "terms": {
+      "autumn": {
+        "start": "2025-09-01",
+        "halfTerm": {
+          "start": "2025-10-27",
+          "end": "2025-10-31"
+        },
+        "end": "2025-12-19"
+      },
+      "spring": {
+        "start": "2026-01-05",
+        "halfTerm": {
+          "start": "2026-02-16",
+          "end": "2026-02-20"
+        },
+        "end": "2026-03-27"
+      },
+      "summer": {
+        "start": "2026-04-13",
+        "halfTerm": {
+          "start": "2026-05-25",
+          "end": "2026-05-29"
+        },
+        "end": "2026-07-21"
+      }
+    },
+    "insetDates": [],
+    "holidays": [
+      "2026-01-01",
+      "2026-04-03",
+      "2026-04-06",
+      "2026-05-04",
+      "2026-05-25",
+      "2026-08-31",
+      "2026-12-25",
+      "2026-12-28"
+    ]
+  },
+  {
+    "id": "101211",
+    "name": "Marsh Green Primary School",
+    "type": "Local authority maintained schools",
+    "address": {
+      "street": "South Close",
+      "locality": "",
+      "address3": "",
+      "town": "Dagenham",
+      "county": "Essex",
+      "postcode": "RM10 9NJ"
+    },
+    "contact": {
+      "website": "http://www.marshgreenprimary.com",
+      "telephone": "2082704982"
+    },
+    "council": "Barking and Dagenham",
+    "terms": {
+      "autumn": {
+        "start": "2025-09-01",
+        "halfTerm": {
+          "start": "2025-10-27",
+          "end": "2025-10-31"
+        },
+        "end": "2025-12-19"
+      },
+      "spring": {
+        "start": "2026-01-05",
+        "halfTerm": {
+          "start": "2026-02-16",
+          "end": "2026-02-20"
+        },
+        "end": "2026-03-27"
+      },
+      "summer": {
+        "start": "2026-04-13",
+        "halfTerm": {
+          "start": "2026-05-25",
+          "end": "2026-05-29"
+        },
+        "end": "2026-07-21"
+      }
+    },
+    "insetDates": [],
+    "holidays": [
+      "2026-01-01",
+      "2026-04-03",
+      "2026-04-06",
+      "2026-05-04",
+      "2026-05-25",
+      "2026-08-31",
+      "2026-12-25",
+      "2026-12-28"
+    ]
+  },
+  {
+    "id": "101212",
+    "name": "Rush Green Primary School",
+    "type": "Local authority maintained schools",
+    "address": {
+      "street": "Dagenham Road",
+      "locality": "Rush Green",
+      "address3": "",
+      "town": "Romford",
+      "county": "Essex",
+      "postcode": "RM7 0RL"
+    },
+    "contact": {
+      "website": "www.rushgreenprimary.org.uk",
+      "telephone": "2082704940"
+    },
+    "council": "Barking and Dagenham",
+    "terms": {
+      "autumn": {
+        "start": "2025-09-01",
+        "halfTerm": {
+          "start": "2025-10-27",
+          "end": "2025-10-31"
+        },
+        "end": "2025-12-19"
+      },
+      "spring": {
+        "start": "2026-01-05",
+        "halfTerm": {
+          "start": "2026-02-16",
+          "end": "2026-02-20"
+        },
+        "end": "2026-03-27"
+      },
+      "summer": {
+        "start": "2026-04-13",
+        "halfTerm": {
+          "start": "2026-05-25",
+          "end": "2026-05-29"
+        },
+        "end": "2026-07-21"
+      }
+    },
+    "insetDates": [],
+    "holidays": [
+      "2026-01-01",
+      "2026-04-03",
+      "2026-04-06",
+      "2026-05-04",
+      "2026-05-25",
+      "2026-08-31",
+      "2026-12-25",
+      "2026-12-28"
+    ]
+  },
+  {
+    "id": "101216",
+    "name": "The Leys Primary School",
+    "type": "Local authority maintained schools",
+    "address": {
+      "street": "Leys Avenue",
+      "locality": "",
+      "address3": "",
+      "town": "Dagenham",
+      "county": "Essex",
+      "postcode": "RM10 9YR"
+    },
+    "contact": {
+      "website": "http://www.leysprimaryschool.com",
+      "telephone": "2082706470"
+    },
+    "council": "Barking and Dagenham",
+    "terms": {
+      "autumn": {
+        "start": "2025-09-01",
+        "halfTerm": {
+          "start": "2025-10-27",
+          "end": "2025-10-31"
+        },
+        "end": "2025-12-19"
+      },
+      "spring": {
+        "start": "2026-01-05",
+        "halfTerm": {
+          "start": "2026-02-16",
+          "end": "2026-02-20"
+        },
+        "end": "2026-03-27"
+      },
+      "summer": {
+        "start": "2026-04-13",
+        "halfTerm": {
+          "start": "2026-05-25",
+          "end": "2026-05-29"
+        },
+        "end": "2026-07-21"
+      }
+    },
+    "insetDates": [],
+    "holidays": [
+      "2026-01-01",
+      "2026-04-03",
+      "2026-04-06",
+      "2026-05-04",
+      "2026-05-25",
+      "2026-08-31",
+      "2026-12-25",
+      "2026-12-28"
+    ]
+  },
+  {
+    "id": "101219",
+    "name": "Warren Junior School",
+    "type": "Local authority maintained schools",
+    "address": {
+      "street": "Gordon Road",
+      "locality": "Chadwell Heath",
+      "address3": "",
+      "town": "Romford",
+      "county": "Essex",
+      "postcode": "RM6 6DA"
+    },
+    "contact": {
+      "website": "https://www.warrenjunior.co.uk",
+      "telephone": "2082704680"
+    },
+    "council": "Barking and Dagenham",
+    "terms": {
+      "autumn": {
+        "start": "2025-09-01",
+        "halfTerm": {
+          "start": "2025-10-27",
+          "end": "2025-10-31"
+        },
+        "end": "2025-12-19"
+      },
+      "spring": {
+        "start": "2026-01-05",
+        "halfTerm": {
+          "start": "2026-02-16",
+          "end": "2026-02-20"
+        },
+        "end": "2026-03-27"
+      },
+      "summer": {
+        "start": "2026-04-13",
+        "halfTerm": {
+          "start": "2026-05-25",
+          "end": "2026-05-29"
+        },
+        "end": "2026-07-21"
+      }
+    },
+    "insetDates": [],
+    "holidays": [
+      "2026-01-01",
+      "2026-04-03",
+      "2026-04-06",
+      "2026-05-04",
+      "2026-05-25",
+      "2026-08-31",
+      "2026-12-25",
+      "2026-12-28"
+    ]
+  },
+  {
+    "id": "101220",
+    "name": "Thomas Arnold Primary School, Rowdowns Road",
+    "type": "Local authority maintained schools",
+    "address": {
+      "street": "Thomas Arnold Primary School, Rowdowns Road",
+      "locality": "",
+      "address3": "Rowdowns Road",
+      "town": "Dagenham",
+      "county": "Essex",
+      "postcode": "RM9 6NH"
+    },
+    "contact": {
+      "website": "http://www.thomasarnoldprimary.co.uk",
+      "telephone": "2082704588"
+    },
+    "council": "Barking and Dagenham",
+    "terms": {
+      "autumn": {
+        "start": "2025-09-01",
+        "halfTerm": {
+          "start": "2025-10-27",
+          "end": "2025-10-31"
+        },
+        "end": "2025-12-19"
+      },
+      "spring": {
+        "start": "2026-01-05",
+        "halfTerm": {
+          "start": "2026-02-16",
+          "end": "2026-02-20"
+        },
+        "end": "2026-03-27"
+      },
+      "summer": {
+        "start": "2026-04-13",
+        "halfTerm": {
+          "start": "2026-05-25",
+          "end": "2026-05-29"
+        },
+        "end": "2026-07-21"
+      }
+    },
+    "insetDates": [],
+    "holidays": [
+      "2026-01-01",
+      "2026-04-03",
+      "2026-04-06",
+      "2026-05-04",
+      "2026-05-25",
+      "2026-08-31",
+      "2026-12-25",
+      "2026-12-28"
+    ]
+  },
+  {
+    "id": "101222",
+    "name": "Valence Primary School",
+    "type": "Local authority maintained schools",
+    "address": {
+      "street": "Bonham Road",
+      "locality": "",
+      "address3": "",
+      "town": "Dagenham",
+      "county": "Essex",
+      "postcode": "RM8 3AR"
+    },
+    "contact": {
+      "website": "www.valenceprimaryschool.com",
+      "telephone": "2030069888"
+    },
+    "council": "Barking and Dagenham",
+    "terms": {
+      "autumn": {
+        "start": "2025-09-01",
+        "halfTerm": {
+          "start": "2025-10-27",
+          "end": "2025-10-31"
+        },
+        "end": "2025-12-19"
+      },
+      "spring": {
+        "start": "2026-01-05",
+        "halfTerm": {
+          "start": "2026-02-16",
+          "end": "2026-02-20"
+        },
+        "end": "2026-03-27"
+      },
+      "summer": {
+        "start": "2026-04-13",
+        "halfTerm": {
+          "start": "2026-05-25",
+          "end": "2026-05-29"
+        },
+        "end": "2026-07-21"
+      }
+    },
+    "insetDates": [],
+    "holidays": [
+      "2026-01-01",
+      "2026-04-03",
+      "2026-04-06",
+      "2026-05-04",
+      "2026-05-25",
+      "2026-08-31",
+      "2026-12-25",
+      "2026-12-28"
+    ]
+  },
+  {
+    "id": "101223",
+    "name": "Village Infants' School",
+    "type": "Local authority maintained schools",
+    "address": {
+      "street": "Ford Road",
+      "locality": "",
+      "address3": "",
+      "town": "Dagenham",
+      "county": "Essex",
+      "postcode": "RM10 9JS"
+    },
+    "contact": {
+      "website": "www.villageinfants.com/",
+      "telephone": "2082706589"
+    },
+    "council": "Barking and Dagenham",
+    "terms": {
+      "autumn": {
+        "start": "2025-09-01",
+        "halfTerm": {
+          "start": "2025-10-27",
+          "end": "2025-10-31"
+        },
+        "end": "2025-12-19"
+      },
+      "spring": {
+        "start": "2026-01-05",
+        "halfTerm": {
+          "start": "2026-02-16",
+          "end": "2026-02-20"
+        },
+        "end": "2026-03-27"
+      },
+      "summer": {
+        "start": "2026-04-13",
+        "halfTerm": {
+          "start": "2026-05-25",
+          "end": "2026-05-29"
+        },
+        "end": "2026-07-21"
+      }
+    },
+    "insetDates": [],
+    "holidays": [
+      "2026-01-01",
+      "2026-04-03",
+      "2026-04-06",
+      "2026-05-04",
+      "2026-05-25",
+      "2026-08-31",
+      "2026-12-25",
+      "2026-12-28"
+    ]
+  },
+  {
+    "id": "101224",
+    "name": "Rose Lane Primary School",
+    "type": "Local authority maintained schools",
+    "address": {
+      "street": "Rose Lane",
+      "locality": "Chadwell Heath",
+      "address3": "",
+      "town": "Romford",
+      "county": "Essex",
+      "postcode": "RM6 5NJ"
+    },
+    "contact": {
+      "website": "www.roselaneprimary.org.uk",
+      "telephone": "2082704438"
+    },
+    "council": "Barking and Dagenham",
+    "terms": {
+      "autumn": {
+        "start": "2025-09-01",
+        "halfTerm": {
+          "start": "2025-10-27",
+          "end": "2025-10-31"
+        },
+        "end": "2025-12-19"
+      },
+      "spring": {
+        "start": "2026-01-05",
+        "halfTerm": {
+          "start": "2026-02-16",
+          "end": "2026-02-20"
+        },
+        "end": "2026-03-27"
+      },
+      "summer": {
+        "start": "2026-04-13",
+        "halfTerm": {
+          "start": "2026-05-25",
+          "end": "2026-05-29"
+        },
+        "end": "2026-07-21"
+      }
+    },
+    "insetDates": [],
+    "holidays": [
+      "2026-01-01",
+      "2026-04-03",
+      "2026-04-06",
+      "2026-05-04",
+      "2026-05-25",
+      "2026-08-31",
+      "2026-12-25",
+      "2026-12-28"
+    ]
+  },
+  {
+    "id": "101226",
+    "name": "William Bellamy Primary School",
+    "type": "Local authority maintained schools",
+    "address": {
+      "street": "Frizlands Lane",
+      "locality": "East",
+      "address3": "",
+      "town": "Dagenham",
+      "county": "Essex",
+      "postcode": "RM10 7HX"
+    },
+    "contact": {
+      "website": "www.williambellamy.co.uk",
+      "telephone": "2082706506"
+    },
+    "council": "Barking and Dagenham",
+    "terms": {
+      "autumn": {
+        "start": "2025-09-01",
+        "halfTerm": {
+          "start": "2025-10-27",
+          "end": "2025-10-31"
+        },
+        "end": "2025-12-19"
+      },
+      "spring": {
+        "start": "2026-01-05",
+        "halfTerm": {
+          "start": "2026-02-16",
+          "end": "2026-02-20"
+        },
+        "end": "2026-03-27"
+      },
+      "summer": {
+        "start": "2026-04-13",
+        "halfTerm": {
+          "start": "2026-05-25",
+          "end": "2026-05-29"
+        },
+        "end": "2026-07-21"
+      }
+    },
+    "insetDates": [],
+    "holidays": [
+      "2026-01-01",
+      "2026-04-03",
+      "2026-04-06",
+      "2026-05-04",
+      "2026-05-25",
+      "2026-08-31",
+      "2026-12-25",
+      "2026-12-28"
+    ]
+  },
+  {
+    "id": "101227",
+    "name": "Parsloes Primary School",
+    "type": "Local authority maintained schools",
+    "address": {
+      "street": "Spurling Road",
+      "locality": "",
+      "address3": "",
+      "town": "Dagenham",
+      "county": "Essex",
+      "postcode": "RM9 5RH"
+    },
+    "contact": {
+      "website": "www.parsloesprimary.co.uk",
+      "telephone": "2082704925"
+    },
+    "council": "Barking and Dagenham",
+    "terms": {
+      "autumn": {
+        "start": "2025-09-01",
+        "halfTerm": {
+          "start": "2025-10-27",
+          "end": "2025-10-31"
+        },
+        "end": "2025-12-19"
+      },
+      "spring": {
+        "start": "2026-01-05",
+        "halfTerm": {
+          "start": "2026-02-16",
+          "end": "2026-02-20"
+        },
+        "end": "2026-03-27"
+      },
+      "summer": {
+        "start": "2026-04-13",
+        "halfTerm": {
+          "start": "2026-05-25",
+          "end": "2026-05-29"
+        },
+        "end": "2026-07-21"
+      }
+    },
+    "insetDates": [],
+    "holidays": [
+      "2026-01-01",
+      "2026-04-03",
+      "2026-04-06",
+      "2026-05-04",
+      "2026-05-25",
+      "2026-08-31",
+      "2026-12-25",
+      "2026-12-28"
+    ]
+  },
+  {
+    "id": "101228",
+    "name": "Five Elms Primary School",
+    "type": "Local authority maintained schools",
+    "address": {
+      "street": "Wood Lane",
+      "locality": "",
+      "address3": "Five Elms Primary School",
+      "town": "Dagenham",
+      "county": "Essex",
+      "postcode": "RM9 5TB"
+    },
+    "contact": {
+      "website": "www.five-elms.bardag.dbprimary.com/",
+      "telephone": "2082704909"
+    },
+    "council": "Barking and Dagenham",
+    "terms": {
+      "autumn": {
+        "start": "2025-09-01",
+        "halfTerm": {
+          "start": "2025-10-27",
+          "end": "2025-10-31"
+        },
+        "end": "2025-12-19"
+      },
+      "spring": {
+        "start": "2026-01-05",
+        "halfTerm": {
+          "start": "2026-02-16",
+          "end": "2026-02-20"
+        },
+        "end": "2026-03-27"
+      },
+      "summer": {
+        "start": "2026-04-13",
+        "halfTerm": {
+          "start": "2026-05-25",
+          "end": "2026-05-29"
+        },
+        "end": "2026-07-21"
+      }
+    },
+    "insetDates": [],
+    "holidays": [
+      "2026-01-01",
+      "2026-04-03",
+      "2026-04-06",
+      "2026-05-04",
+      "2026-05-25",
+      "2026-08-31",
+      "2026-12-25",
+      "2026-12-28"
+    ]
+  },
+  {
+    "id": "101229",
+    "name": "Henry Green Primary School",
+    "type": "Local authority maintained schools",
+    "address": {
+      "street": "Green Lane",
+      "locality": "",
+      "address3": "",
+      "town": "Dagenham",
+      "county": "Essex",
+      "postcode": "RM8 1UR"
+    },
+    "contact": {
+      "website": "www.henrygreen.org.uk/",
+      "telephone": "2082704466"
+    },
+    "council": "Barking and Dagenham",
+    "terms": {
+      "autumn": {
+        "start": "2025-09-01",
+        "halfTerm": {
+          "start": "2025-10-27",
+          "end": "2025-10-31"
+        },
+        "end": "2025-12-19"
+      },
+      "spring": {
+        "start": "2026-01-05",
+        "halfTerm": {
+          "start": "2026-02-16",
+          "end": "2026-02-20"
+        },
+        "end": "2026-03-27"
+      },
+      "summer": {
+        "start": "2026-04-13",
+        "halfTerm": {
+          "start": "2026-05-25",
+          "end": "2026-05-29"
+        },
+        "end": "2026-07-21"
+      }
+    },
+    "insetDates": [],
+    "holidays": [
+      "2026-01-01",
+      "2026-04-03",
+      "2026-04-06",
+      "2026-05-04",
+      "2026-05-25",
+      "2026-08-31",
+      "2026-12-25",
+      "2026-12-28"
+    ]
+  },
+  {
+    "id": "101230",
+    "name": "Roding Primary School",
+    "type": "Local authority maintained schools",
+    "address": {
+      "street": "Hewett Road",
+      "locality": "",
+      "address3": "",
+      "town": "Dagenham",
+      "county": "Essex",
+      "postcode": "RM8 2XS"
+    },
+    "contact": {
+      "website": "https://www.rodingprimaryschool.co.uk/",
+      "telephone": "2082706640"
+    },
+    "council": "Barking and Dagenham",
+    "terms": {
+      "autumn": {
+        "start": "2025-09-01",
+        "halfTerm": {
+          "start": "2025-10-27",
+          "end": "2025-10-31"
+        },
+        "end": "2025-12-19"
+      },
+      "spring": {
+        "start": "2026-01-05",
+        "halfTerm": {
+          "start": "2026-02-16",
+          "end": "2026-02-20"
+        },
+        "end": "2026-03-27"
+      },
+      "summer": {
+        "start": "2026-04-13",
+        "halfTerm": {
+          "start": "2026-05-25",
+          "end": "2026-05-29"
+        },
+        "end": "2026-07-21"
+      }
+    },
+    "insetDates": [],
+    "holidays": [
+      "2026-01-01",
+      "2026-04-03",
+      "2026-04-06",
+      "2026-05-04",
+      "2026-05-25",
+      "2026-08-31",
+      "2026-12-25",
+      "2026-12-28"
+    ]
+  },
+  {
+    "id": "101231",
+    "name": "Becontree Primary School",
+    "type": "Local authority maintained schools",
+    "address": {
+      "street": "Stevens Road",
+      "locality": "",
+      "address3": "",
+      "town": "Dagenham",
+      "county": "Essex",
+      "postcode": "RM8 2QR"
+    },
+    "contact": {
+      "website": "www.becontreeprimaryschool.com",
+      "telephone": "2082704900"
+    },
+    "council": "Barking and Dagenham",
+    "terms": {
+      "autumn": {
+        "start": "2025-09-01",
+        "halfTerm": {
+          "start": "2025-10-27",
+          "end": "2025-10-31"
+        },
+        "end": "2025-12-19"
+      },
+      "spring": {
+        "start": "2026-01-05",
+        "halfTerm": {
+          "start": "2026-02-16",
+          "end": "2026-02-20"
+        },
+        "end": "2026-03-27"
+      },
+      "summer": {
+        "start": "2026-04-13",
+        "halfTerm": {
+          "start": "2026-05-25",
+          "end": "2026-05-29"
+        },
+        "end": "2026-07-21"
+      }
+    },
+    "insetDates": [],
+    "holidays": [
+      "2026-01-01",
+      "2026-04-03",
+      "2026-04-06",
+      "2026-05-04",
+      "2026-05-25",
+      "2026-08-31",
+      "2026-12-25",
+      "2026-12-28"
+    ]
+  },
+  {
+    "id": "101232",
+    "name": "John Perry Primary School",
+    "type": "Local authority maintained schools",
+    "address": {
+      "street": "Charles Road",
+      "locality": "",
+      "address3": "",
+      "town": "Dagenham",
+      "county": "Essex",
+      "postcode": "RM10 8UR"
+    },
+    "contact": {
+      "website": "www.johnperryprimary.co.uk/",
+      "telephone": "2082704622"
+    },
+    "council": "Barking and Dagenham",
+    "terms": {
+      "autumn": {
+        "start": "2025-09-01",
+        "halfTerm": {
+          "start": "2025-10-27",
+          "end": "2025-10-31"
+        },
+        "end": "2025-12-19"
+      },
+      "spring": {
+        "start": "2026-01-05",
+        "halfTerm": {
+          "start": "2026-02-16",
+          "end": "2026-02-20"
+        },
+        "end": "2026-03-27"
+      },
+      "summer": {
+        "start": "2026-04-13",
+        "halfTerm": {
+          "start": "2026-05-25",
+          "end": "2026-05-29"
+        },
+        "end": "2026-07-21"
+      }
+    },
+    "insetDates": [],
+    "holidays": [
+      "2026-01-01",
+      "2026-04-03",
+      "2026-04-06",
+      "2026-05-04",
+      "2026-05-25",
+      "2026-08-31",
+      "2026-12-25",
+      "2026-12-28"
+    ]
+  },
+  {
+    "id": "101234",
+    "name": "William Ford CofE Junior School",
+    "type": "Local authority maintained schools",
+    "address": {
+      "street": "Ford Road",
+      "locality": "",
+      "address3": "",
+      "town": "Dagenham",
+      "county": "Essex",
+      "postcode": "RM10 9JS"
+    },
+    "contact": {
+      "website": "www.williamfordschool.co.uk/",
+      "telephone": "2082706582"
+    },
+    "council": "Barking and Dagenham",
+    "terms": {
+      "autumn": {
+        "start": "2025-09-01",
+        "halfTerm": {
+          "start": "2025-10-27",
+          "end": "2025-10-31"
+        },
+        "end": "2025-12-19"
+      },
+      "spring": {
+        "start": "2026-01-05",
+        "halfTerm": {
+          "start": "2026-02-16",
+          "end": "2026-02-20"
+        },
+        "end": "2026-03-27"
+      },
+      "summer": {
+        "start": "2026-04-13",
+        "halfTerm": {
+          "start": "2026-05-25",
+          "end": "2026-05-29"
+        },
+        "end": "2026-07-21"
+      }
+    },
+    "insetDates": [],
+    "holidays": [
+      "2026-01-01",
+      "2026-04-03",
+      "2026-04-06",
+      "2026-05-04",
+      "2026-05-25",
+      "2026-08-31",
+      "2026-12-25",
+      "2026-12-28"
+    ]
+  },
+  {
+    "id": "101237",
+    "name": "St Peter's Catholic Primary School",
+    "type": "Local authority maintained schools",
+    "address": {
+      "street": "Goresbrook Road",
+      "locality": "",
+      "address3": "",
+      "town": "Dagenham",
+      "county": "Essex",
+      "postcode": "RM9 6UU"
+    },
+    "contact": {
+      "website": "www.st-peter.bardaglea.org.uk/",
+      "telephone": "2082706524"
+    },
+    "council": "Barking and Dagenham",
+    "terms": {
+      "autumn": {
+        "start": "2025-09-01",
+        "halfTerm": {
+          "start": "2025-10-27",
+          "end": "2025-10-31"
+        },
+        "end": "2025-12-19"
+      },
+      "spring": {
+        "start": "2026-01-05",
+        "halfTerm": {
+          "start": "2026-02-16",
+          "end": "2026-02-20"
+        },
+        "end": "2026-03-27"
+      },
+      "summer": {
+        "start": "2026-04-13",
+        "halfTerm": {
+          "start": "2026-05-25",
+          "end": "2026-05-29"
+        },
+        "end": "2026-07-21"
+      }
+    },
+    "insetDates": [],
+    "holidays": [
+      "2026-01-01",
+      "2026-04-03",
+      "2026-04-06",
+      "2026-05-04",
+      "2026-05-25",
+      "2026-08-31",
+      "2026-12-25",
+      "2026-12-28"
+    ]
+  },
+  {
+    "id": "101241",
+    "name": "Barking Abbey School, A Specialist Sports and Humanities College",
+    "type": "Local authority maintained schools",
+    "address": {
+      "street": "Sandringham Road",
+      "locality": "",
+      "address3": "",
+      "town": "Barking",
+      "county": "Essex",
+      "postcode": "IG11 9AG"
+    },
+    "contact": {
+      "website": "http://www.barkingabbeyschool.co.uk/",
+      "telephone": "2039677030"
+    },
+    "council": "Barking and Dagenham",
+    "terms": {
+      "autumn": {
+        "start": "2025-09-01",
+        "halfTerm": {
+          "start": "2025-10-27",
+          "end": "2025-10-31"
+        },
+        "end": "2025-12-19"
+      },
+      "spring": {
+        "start": "2026-01-05",
+        "halfTerm": {
+          "start": "2026-02-16",
+          "end": "2026-02-20"
+        },
+        "end": "2026-03-27"
+      },
+      "summer": {
+        "start": "2026-04-13",
+        "halfTerm": {
+          "start": "2026-05-25",
+          "end": "2026-05-29"
+        },
+        "end": "2026-07-21"
+      }
+    },
+    "insetDates": [],
+    "holidays": [
+      "2026-01-01",
+      "2026-04-03",
+      "2026-04-06",
+      "2026-05-04",
+      "2026-05-25",
+      "2026-08-31",
+      "2026-12-25",
+      "2026-12-28"
+    ]
+  },
+  {
+    "id": "101243",
+    "name": "Eastbrook School",
+    "type": "Local authority maintained schools",
+    "address": {
+      "street": "Dagenham Road",
+      "locality": "",
+      "address3": "",
+      "town": "Dagenham",
+      "county": "Essex",
+      "postcode": "RM10 7UR"
+    },
+    "contact": {
+      "website": "www.eastbrookschool.org",
+      "telephone": "2037803609"
+    },
+    "council": "Barking and Dagenham",
+    "terms": {
+      "autumn": {
+        "start": "2025-09-01",
+        "halfTerm": {
+          "start": "2025-10-27",
+          "end": "2025-10-31"
+        },
+        "end": "2025-12-19"
+      },
+      "spring": {
+        "start": "2026-01-05",
+        "halfTerm": {
+          "start": "2026-02-16",
+          "end": "2026-02-20"
+        },
+        "end": "2026-03-27"
+      },
+      "summer": {
+        "start": "2026-04-13",
+        "halfTerm": {
+          "start": "2026-05-25",
+          "end": "2026-05-29"
+        },
+        "end": "2026-07-21"
+      }
+    },
+    "insetDates": [],
+    "holidays": [
+      "2026-01-01",
+      "2026-04-03",
+      "2026-04-06",
+      "2026-05-04",
+      "2026-05-25",
+      "2026-08-31",
+      "2026-12-25",
+      "2026-12-28"
+    ]
+  },
+  {
+    "id": "101244",
+    "name": "Eastbury Community School",
+    "type": "Local authority maintained schools",
+    "address": {
+      "street": "Hulse Avenue",
+      "locality": "",
+      "address3": "",
+      "town": "Barking",
+      "county": "Essex",
+      "postcode": "IG11 9UW"
+    },
+    "contact": {
+      "website": "www.eastbury.bardaglea.org.uk",
+      "telephone": "2085074500"
+    },
+    "council": "Barking and Dagenham",
+    "terms": {
+      "autumn": {
+        "start": "2025-09-01",
+        "halfTerm": {
+          "start": "2025-10-27",
+          "end": "2025-10-31"
+        },
+        "end": "2025-12-19"
+      },
+      "spring": {
+        "start": "2026-01-05",
+        "halfTerm": {
+          "start": "2026-02-16",
+          "end": "2026-02-20"
+        },
+        "end": "2026-03-27"
+      },
+      "summer": {
+        "start": "2026-04-13",
+        "halfTerm": {
+          "start": "2026-05-25",
+          "end": "2026-05-29"
+        },
+        "end": "2026-07-21"
+      }
+    },
+    "insetDates": [],
+    "holidays": [
+      "2026-01-01",
+      "2026-04-03",
+      "2026-04-06",
+      "2026-05-04",
+      "2026-05-25",
+      "2026-08-31",
+      "2026-12-25",
+      "2026-12-28"
+    ]
+  },
+  {
+    "id": "101245",
+    "name": "Robert Clack School",
+    "type": "Local authority maintained schools",
+    "address": {
+      "street": "Gosfield Road",
+      "locality": "",
+      "address3": "",
+      "town": "Dagenham",
+      "county": "Essex",
+      "postcode": "RM8 1JU"
+    },
+    "contact": {
+      "website": "http://www.robertclack.co.uk/",
+      "telephone": "2082704200"
+    },
+    "council": "Barking and Dagenham",
+    "terms": {
+      "autumn": {
+        "start": "2025-09-01",
+        "halfTerm": {
+          "start": "2025-10-27",
+          "end": "2025-10-31"
+        },
+        "end": "2025-12-19"
+      },
+      "spring": {
+        "start": "2026-01-05",
+        "halfTerm": {
+          "start": "2026-02-16",
+          "end": "2026-02-20"
+        },
+        "end": "2026-03-27"
+      },
+      "summer": {
+        "start": "2026-04-13",
+        "halfTerm": {
+          "start": "2026-05-25",
+          "end": "2026-05-29"
+        },
+        "end": "2026-07-21"
+      }
+    },
+    "insetDates": [],
+    "holidays": [
+      "2026-01-01",
+      "2026-04-03",
+      "2026-04-06",
+      "2026-05-04",
+      "2026-05-25",
+      "2026-08-31",
+      "2026-12-25",
+      "2026-12-28"
+    ]
+  },
+  {
+    "id": "101247",
+    "name": "All Saints Catholic School and Technology College",
+    "type": "Local authority maintained schools",
+    "address": {
+      "street": "Terling Road",
+      "locality": "Wood Lane",
+      "address3": "",
+      "town": "Dagenham",
+      "county": "Essex",
+      "postcode": "RM8 1JT"
+    },
+    "contact": {
+      "website": "http://www.allsaintsschool.co.uk/",
+      "telephone": "2082704242"
+    },
+    "council": "Barking and Dagenham",
+    "terms": {
+      "autumn": {
+        "start": "2025-09-01",
+        "halfTerm": {
+          "start": "2025-10-27",
+          "end": "2025-10-31"
+        },
+        "end": "2025-12-19"
+      },
+      "spring": {
+        "start": "2026-01-05",
+        "halfTerm": {
+          "start": "2026-02-16",
+          "end": "2026-02-20"
+        },
+        "end": "2026-03-27"
+      },
+      "summer": {
+        "start": "2026-04-13",
+        "halfTerm": {
+          "start": "2026-05-25",
+          "end": "2026-05-29"
+        },
+        "end": "2026-07-21"
+      }
+    },
+    "insetDates": [],
+    "holidays": [
+      "2026-01-01",
+      "2026-04-03",
+      "2026-04-06",
+      "2026-05-04",
+      "2026-05-25",
+      "2026-08-31",
+      "2026-12-25",
+      "2026-12-28"
+    ]
+  },
+  {
+    "id": "130340",
+    "name": "Monteagle Primary School",
+    "type": "Local authority maintained schools",
+    "address": {
+      "street": "Burnham Road",
+      "locality": "",
+      "address3": "",
+      "town": "Dagenham",
+      "county": "Essex",
+      "postcode": "RM9 4RB"
+    },
+    "contact": {
+      "website": "www.monteagle.bardaglea.org.uk/",
+      "telephone": "2082704613"
+    },
+    "council": "Barking and Dagenham",
+    "terms": {
+      "autumn": {
+        "start": "2025-09-01",
+        "halfTerm": {
+          "start": "2025-10-27",
+          "end": "2025-10-31"
+        },
+        "end": "2025-12-19"
+      },
+      "spring": {
+        "start": "2026-01-05",
+        "halfTerm": {
+          "start": "2026-02-16",
+          "end": "2026-02-20"
+        },
+        "end": "2026-03-27"
+      },
+      "summer": {
+        "start": "2026-04-13",
+        "halfTerm": {
+          "start": "2026-05-25",
+          "end": "2026-05-29"
+        },
+        "end": "2026-07-21"
+      }
+    },
+    "insetDates": [],
+    "holidays": [
+      "2026-01-01",
+      "2026-04-03",
+      "2026-04-06",
+      "2026-05-04",
+      "2026-05-25",
+      "2026-08-31",
+      "2026-12-25",
+      "2026-12-28"
+    ]
+  },
+  {
+    "id": "130357",
+    "name": "Richard Alibon Primary School with ARP for Cognitive and Learning Difficulties : SEN Base",
+    "type": "Local authority maintained schools",
+    "address": {
+      "street": "Alibon Road",
+      "locality": "",
+      "address3": "",
+      "town": "Dagenham",
+      "county": "Essex",
+      "postcode": "RM10 8DF"
+    },
+    "contact": {
+      "website": "www.r-alibon.bardaglea.org.uk",
+      "telephone": "2082704706"
+    },
+    "council": "Barking and Dagenham",
+    "terms": {
+      "autumn": {
+        "start": "2025-09-01",
+        "halfTerm": {
+          "start": "2025-10-27",
+          "end": "2025-10-31"
+        },
+        "end": "2025-12-19"
+      },
+      "spring": {
+        "start": "2026-01-05",
+        "halfTerm": {
+          "start": "2026-02-16",
+          "end": "2026-02-20"
+        },
+        "end": "2026-03-27"
+      },
+      "summer": {
+        "start": "2026-04-13",
+        "halfTerm": {
+          "start": "2026-05-25",
+          "end": "2026-05-29"
+        },
+        "end": "2026-07-21"
+      }
+    },
+    "insetDates": [],
+    "holidays": [
+      "2026-01-01",
+      "2026-04-03",
+      "2026-04-06",
+      "2026-05-04",
+      "2026-05-25",
+      "2026-08-31",
+      "2026-12-25",
+      "2026-12-28"
+    ]
+  },
+  {
+    "id": "130919",
+    "name": "Godwin Primary School",
+    "type": "Local authority maintained schools",
+    "address": {
+      "street": "Finnymore Road",
+      "locality": "",
+      "address3": "",
+      "town": "Dagenham",
+      "county": "Essex",
+      "postcode": "RM9 6JH"
+    },
+    "contact": {
+      "website": "http://www.godwinprimary.co.uk",
+      "telephone": "2082704150"
+    },
+    "council": "Barking and Dagenham",
+    "terms": {
+      "autumn": {
+        "start": "2025-09-01",
+        "halfTerm": {
+          "start": "2025-10-27",
+          "end": "2025-10-31"
+        },
+        "end": "2025-12-19"
+      },
+      "spring": {
+        "start": "2026-01-05",
+        "halfTerm": {
+          "start": "2026-02-16",
+          "end": "2026-02-20"
+        },
+        "end": "2026-03-27"
+      },
+      "summer": {
+        "start": "2026-04-13",
+        "halfTerm": {
+          "start": "2026-05-25",
+          "end": "2026-05-29"
+        },
+        "end": "2026-07-21"
+      }
+    },
+    "insetDates": [],
+    "holidays": [
+      "2026-01-01",
+      "2026-04-03",
+      "2026-04-06",
+      "2026-05-04",
+      "2026-05-25",
+      "2026-08-31",
+      "2026-12-25",
+      "2026-12-28"
+    ]
+  },
+  {
+    "id": "131775",
+    "name": "Gascoigne Primary School",
+    "type": "Local authority maintained schools",
+    "address": {
+      "street": "Gascoigne Road",
+      "locality": "",
+      "address3": "",
+      "town": "Barking",
+      "county": "Essex",
+      "postcode": "IG11 7DR"
+    },
+    "contact": {
+      "website": "www.gascoigneprimaryschool.co.uk",
+      "telephone": "2082704291"
+    },
+    "council": "Barking and Dagenham",
+    "terms": {
+      "autumn": {
+        "start": "2025-09-01",
+        "halfTerm": {
+          "start": "2025-10-27",
+          "end": "2025-10-31"
+        },
+        "end": "2025-12-19"
+      },
+      "spring": {
+        "start": "2026-01-05",
+        "halfTerm": {
+          "start": "2026-02-16",
+          "end": "2026-02-20"
+        },
+        "end": "2026-03-27"
+      },
+      "summer": {
+        "start": "2026-04-13",
+        "halfTerm": {
+          "start": "2026-05-25",
+          "end": "2026-05-29"
+        },
+        "end": "2026-07-21"
+      }
+    },
+    "insetDates": [],
+    "holidays": [
+      "2026-01-01",
+      "2026-04-03",
+      "2026-04-06",
+      "2026-05-04",
+      "2026-05-25",
+      "2026-08-31",
+      "2026-12-25",
+      "2026-12-28"
+    ]
+  },
+  {
+    "id": "131844",
+    "name": "Hunters Hall Primary School",
+    "type": "Local authority maintained schools",
+    "address": {
+      "street": "Alibon Road",
+      "locality": "",
+      "address3": "Hunters Hall Primary School",
+      "town": "Dagenham",
+      "county": "Essex",
+      "postcode": "RM10 8DE"
+    },
+    "contact": {
+      "website": "www.huntershallprimary.org.uk",
+      "telephone": "2082704768"
+    },
+    "council": "Barking and Dagenham",
+    "terms": {
+      "autumn": {
+        "start": "2025-09-01",
+        "halfTerm": {
+          "start": "2025-10-27",
+          "end": "2025-10-31"
+        },
+        "end": "2025-12-19"
+      },
+      "spring": {
+        "start": "2026-01-05",
+        "halfTerm": {
+          "start": "2026-02-16",
+          "end": "2026-02-20"
+        },
+        "end": "2026-03-27"
+      },
+      "summer": {
+        "start": "2026-04-13",
+        "halfTerm": {
+          "start": "2026-05-25",
+          "end": "2026-05-29"
+        },
+        "end": "2026-07-21"
+      }
+    },
+    "insetDates": [],
+    "holidays": [
+      "2026-01-01",
+      "2026-04-03",
+      "2026-04-06",
+      "2026-05-04",
+      "2026-05-25",
+      "2026-08-31",
+      "2026-12-25",
+      "2026-12-28"
+    ]
+  },
+  {
+    "id": "131845",
+    "name": "Southwood Primary School",
+    "type": "Local authority maintained schools",
+    "address": {
+      "street": "Keppel Road",
+      "locality": "",
+      "address3": "",
+      "town": "Dagenham",
+      "county": "Essex",
+      "postcode": "RM9 5LT"
+    },
+    "contact": {
+      "website": "www.southwoodprimary.co.uk/",
+      "telephone": "2082704915"
+    },
+    "council": "Barking and Dagenham",
+    "terms": {
+      "autumn": {
+        "start": "2025-09-01",
+        "halfTerm": {
+          "start": "2025-10-27",
+          "end": "2025-10-31"
+        },
+        "end": "2025-12-19"
+      },
+      "spring": {
+        "start": "2026-01-05",
+        "halfTerm": {
+          "start": "2026-02-16",
+          "end": "2026-02-20"
+        },
+        "end": "2026-03-27"
+      },
+      "summer": {
+        "start": "2026-04-13",
+        "halfTerm": {
+          "start": "2026-05-25",
+          "end": "2026-05-29"
+        },
+        "end": "2026-07-21"
+      }
+    },
+    "insetDates": [],
+    "holidays": [
+      "2026-01-01",
+      "2026-04-03",
+      "2026-04-06",
+      "2026-05-04",
+      "2026-05-25",
+      "2026-08-31",
+      "2026-12-25",
+      "2026-12-28"
+    ]
+  },
+  {
+    "id": "132816",
+    "name": "Mayesbrook Park School",
+    "type": "Local authority maintained schools",
+    "address": {
+      "street": "75-77 Arden Crescent",
+      "locality": "",
+      "address3": "",
+      "town": "Dagenham",
+      "county": "Essex",
+      "postcode": "RM9 6TJ"
+    },
+    "contact": {
+      "website": "http://www.mayesbrookparkschool.org.uk/",
+      "telephone": "2082706000"
+    },
+    "council": "Barking and Dagenham",
+    "terms": {
+      "autumn": {
+        "start": "2025-09-01",
+        "halfTerm": {
+          "start": "2025-10-27",
+          "end": "2025-10-31"
+        },
+        "end": "2025-12-19"
+      },
+      "spring": {
+        "start": "2026-01-05",
+        "halfTerm": {
+          "start": "2026-02-16",
+          "end": "2026-02-20"
+        },
+        "end": "2026-03-27"
+      },
+      "summer": {
+        "start": "2026-04-13",
+        "halfTerm": {
+          "start": "2026-05-25",
+          "end": "2026-05-29"
+        },
+        "end": "2026-07-21"
+      }
+    },
+    "insetDates": [],
+    "holidays": [
+      "2026-01-01",
+      "2026-04-03",
+      "2026-04-06",
+      "2026-05-04",
+      "2026-05-25",
+      "2026-08-31",
+      "2026-12-25",
+      "2026-12-28"
+    ]
+  },
+  {
+    "id": "133561",
+    "name": "Jo Richardson Community School",
+    "type": "Local authority maintained schools",
+    "address": {
+      "street": "Gale Street",
+      "locality": "Castle Green",
+      "address3": "",
+      "town": "Dagenham",
+      "county": "Essex",
+      "postcode": "RM9 4UN"
+    },
+    "contact": {
+      "website": "http://jorichardson.org.uk/",
+      "telephone": "2082706222"
+    },
+    "council": "Barking and Dagenham",
+    "terms": {
+      "autumn": {
+        "start": "2025-09-01",
+        "halfTerm": {
+          "start": "2025-10-27",
+          "end": "2025-10-31"
+        },
+        "end": "2025-12-19"
+      },
+      "spring": {
+        "start": "2026-01-05",
+        "halfTerm": {
+          "start": "2026-02-16",
+          "end": "2026-02-20"
+        },
+        "end": "2026-03-27"
+      },
+      "summer": {
+        "start": "2026-04-13",
+        "halfTerm": {
+          "start": "2026-05-25",
+          "end": "2026-05-29"
+        },
+        "end": "2026-07-21"
+      }
+    },
+    "insetDates": [],
+    "holidays": [
+      "2026-01-01",
+      "2026-04-03",
+      "2026-04-06",
+      "2026-05-04",
+      "2026-05-25",
+      "2026-08-31",
+      "2026-12-25",
+      "2026-12-28"
+    ]
+  },
+  {
+    "id": "136028",
+    "name": "Dagenham Park CofE School",
+    "type": "Local authority maintained schools",
+    "address": {
+      "street": "School Road",
+      "locality": "",
+      "address3": "",
+      "town": "Dagenham",
+      "county": "Essex",
+      "postcode": "RM10 9QH"
+    },
+    "contact": {
+      "website": "http://www.dagenhampark.org.uk/",
+      "telephone": "2082704400"
+    },
+    "council": "Barking and Dagenham",
+    "terms": {
+      "autumn": {
+        "start": "2025-09-01",
+        "halfTerm": {
+          "start": "2025-10-27",
+          "end": "2025-10-31"
+        },
+        "end": "2025-12-19"
+      },
+      "spring": {
+        "start": "2026-01-05",
+        "halfTerm": {
+          "start": "2026-02-16",
+          "end": "2026-02-20"
+        },
+        "end": "2026-03-27"
+      },
+      "summer": {
+        "start": "2026-04-13",
+        "halfTerm": {
+          "start": "2026-05-25",
+          "end": "2026-05-29"
+        },
+        "end": "2026-07-21"
+      }
+    },
+    "insetDates": [],
+    "holidays": [
+      "2026-01-01",
+      "2026-04-03",
+      "2026-04-06",
+      "2026-05-04",
+      "2026-05-25",
+      "2026-08-31",
+      "2026-12-25",
+      "2026-12-28"
+    ]
+  },
+  {
+    "id": "136431",
+    "name": "George Carey Church of England Primary School",
+    "type": "Local authority maintained schools",
+    "address": {
+      "street": "The Rivergate Centre",
+      "locality": "Minter Road",
+      "address3": "",
+      "town": "Barking",
+      "county": "",
+      "postcode": "IG11 0FJ"
+    },
+    "contact": {
+      "website": "https://www.georgecareyprimaryschool.com/",
+      "telephone": "2082704040"
+    },
+    "council": "Barking and Dagenham",
+    "terms": {
+      "autumn": {
+        "start": "2025-09-01",
+        "halfTerm": {
+          "start": "2025-10-27",
+          "end": "2025-10-31"
+        },
+        "end": "2025-12-19"
+      },
+      "spring": {
+        "start": "2026-01-05",
+        "halfTerm": {
+          "start": "2026-02-16",
+          "end": "2026-02-20"
+        },
+        "end": "2026-03-27"
+      },
+      "summer": {
+        "start": "2026-04-13",
+        "halfTerm": {
+          "start": "2026-05-25",
+          "end": "2026-05-29"
+        },
+        "end": "2026-07-21"
+      }
+    },
+    "insetDates": [],
+    "holidays": [
+      "2026-01-01",
+      "2026-04-03",
+      "2026-04-06",
+      "2026-05-04",
+      "2026-05-25",
+      "2026-08-31",
+      "2026-12-25",
+      "2026-12-28"
+    ]
+  }
+]

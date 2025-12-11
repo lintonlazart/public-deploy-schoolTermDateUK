@@ -1,0 +1,695 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School Calendar - UK School Term Dates</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .calendar-page {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        .calendar-header {
+            text-align: center;
+            margin-bottom: 30px;
+            color: white;
+        }
+
+        .calendar-header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+
+        .back-link {
+            display: inline-block;
+            color: white;
+            text-decoration: none;
+            margin-bottom: 20px;
+            padding: 10px 20px;
+            background: rgba(255,255,255,0.2);
+            border-radius: 8px;
+            transition: all 0.2s;
+        }
+
+        .back-link:hover {
+            background: rgba(255,255,255,0.3);
+        }
+
+        .calendar-controls {
+            background: white;
+            padding: 20px;
+            border-radius: 15px;
+            margin-bottom: 30px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+
+        .filter-section {
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .filter-section h3 {
+            margin: 0;
+            font-size: 1rem;
+            color: #666;
+        }
+
+        .filter-checkbox {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            padding: 8px 15px;
+            border-radius: 20px;
+            background: white;
+            border: 2px solid #e0e0e0;
+            cursor: pointer;
+            transition: all 0.2s;
+            user-select: none;
+        }
+
+        .filter-checkbox:hover {
+            border-color: #667eea;
+        }
+
+        .filter-checkbox input {
+            cursor: pointer;
+        }
+
+        .filter-checkbox.active {
+            border-color: #667eea;
+            background: #f0f4ff;
+        }
+
+        .color-indicator {
+            width: 16px;
+            height: 16px;
+            border-radius: 50%;
+            border: 2px solid white;
+            box-shadow: 0 0 3px rgba(0,0,0,0.2);
+        }
+
+        .actions-section {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+
+        .view-toggle {
+            display: flex;
+            gap: 5px;
+            background: white;
+            padding: 5px;
+            border-radius: 10px;
+            border: 2px solid #e0e0e0;
+        }
+
+        .view-btn {
+            padding: 8px 16px;
+            border: none;
+            background: transparent;
+            cursor: pointer;
+            border-radius: 6px;
+            font-weight: 600;
+            color: #666;
+            transition: all 0.2s;
+        }
+
+        .view-btn.active {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+        }
+
+        .view-btn:hover:not(.active) {
+            background: #f0f0f0;
+        }
+
+        .btn {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 8px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.2s;
+            font-size: 1rem;
+        }
+
+        .btn-primary {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+        }
+
+        .btn-secondary {
+            background: white;
+            color: #667eea;
+            border: 2px solid #667eea;
+        }
+
+        .btn-secondary:hover {
+            background: #667eea;
+            color: white;
+        }
+
+        .calendar-grid {
+            display: grid;
+            gap: 30px;
+            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+        }
+
+        .calendar-view {
+            display: none;
+        }
+
+        .calendar-view.active {
+            display: block;
+        }
+
+        .visual-calendar {
+            display: grid;
+            gap: 30px;
+            grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+        }
+
+        .calendar-month {
+            background: white;
+            border-radius: 15px;
+            padding: 20px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+
+        .calendar-month-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 15px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #f0f0f0;
+        }
+
+        .calendar-month-title {
+            font-size: 1.3rem;
+            font-weight: bold;
+            color: #667eea;
+        }
+
+        .calendar-weekdays {
+            display: grid;
+            grid-template-columns: repeat(7, 1fr);
+            gap: 5px;
+            margin-bottom: 5px;
+        }
+
+        .calendar-weekday {
+            text-align: center;
+            font-weight: 600;
+            font-size: 0.85rem;
+            color: #999;
+            padding: 8px 0;
+        }
+
+        .calendar-days {
+            display: grid;
+            grid-template-columns: repeat(7, 1fr);
+            gap: 5px;
+        }
+
+        .calendar-day {
+            aspect-ratio: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            border-radius: 8px;
+            font-size: 0.9rem;
+            position: relative;
+            cursor: default;
+            transition: all 0.2s;
+        }
+
+        .calendar-day.other-month {
+            color: #ccc;
+        }
+
+        .calendar-day.today {
+            border: 2px solid #667eea;
+            font-weight: bold;
+        }
+
+        .calendar-day.has-events {
+            cursor: pointer;
+        }
+
+        .calendar-day.has-events:hover {
+            transform: scale(1.05);
+            box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+        }
+
+        .calendar-day-number {
+            font-weight: 600;
+            z-index: 1;
+        }
+
+        .calendar-day-dots {
+            display: flex;
+            gap: 2px;
+            margin-top: 4px;
+            z-index: 1;
+        }
+
+        .event-dot {
+            width: 6px;
+            height: 6px;
+            border-radius: 50%;
+            border: 1px solid white;
+        }
+
+        .calendar-day-bg {
+            position: absolute;
+            inset: 0;
+            border-radius: 8px;
+            opacity: 0.3;
+        }
+
+        .day-tooltip {
+            position: absolute;
+            bottom: 100%;
+            left: 50%;
+            transform: translateX(-50%);
+            background: #333;
+            color: white;
+            padding: 8px 12px;
+            border-radius: 6px;
+            font-size: 0.85rem;
+            white-space: nowrap;
+            pointer-events: none;
+            opacity: 0;
+            transition: opacity 0.2s;
+            z-index: 10;
+            margin-bottom: 5px;
+        }
+
+        .calendar-day:hover .day-tooltip {
+            opacity: 1;
+        }
+
+        .calendar-legend {
+            background: white;
+            padding: 20px;
+            border-radius: 15px;
+            margin-bottom: 20px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+
+        .legend-items {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .legend-item {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .legend-color {
+            width: 20px;
+            height: 20px;
+            border-radius: 4px;
+            border: 2px solid white;
+            box-shadow: 0 0 3px rgba(0,0,0,0.2);
+        }
+
+        .month-card {
+            background: white;
+            border-radius: 15px;
+            padding: 20px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+
+        .month-header {
+            font-size: 1.4rem;
+            font-weight: bold;
+            color: #667eea;
+            margin-bottom: 15px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #f0f0f0;
+        }
+
+        .events-list {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .event-item {
+            padding: 12px;
+            border-radius: 10px;
+            border-left: 4px solid;
+            background: #f9f9f9;
+            transition: all 0.2s;
+        }
+
+        .event-item:hover {
+            transform: translateX(5px);
+            box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+        }
+
+        .event-title {
+            font-weight: 600;
+            color: #333;
+            margin-bottom: 5px;
+        }
+
+        .event-date {
+            font-size: 0.9rem;
+            color: #666;
+        }
+
+        .no-events {
+            text-align: center;
+            padding: 40px;
+            background: white;
+            border-radius: 15px;
+            color: #999;
+            font-style: italic;
+        }
+
+        .modal-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0,0,0,0.5);
+            display: none;
+            align-items: center;
+            justify-content: center;
+            z-index: 1000;
+        }
+
+        .modal-overlay.active {
+            display: flex;
+        }
+
+        .modal {
+            background: white;
+            border-radius: 15px;
+            padding: 30px;
+            max-width: 500px;
+            width: 90%;
+            max-height: 80vh;
+            overflow-y: auto;
+        }
+
+        .modal-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .modal-header h2 {
+            margin: 0;
+            color: #667eea;
+        }
+
+        .close-btn {
+            background: none;
+            border: none;
+            font-size: 1.5rem;
+            cursor: pointer;
+            color: #999;
+            padding: 0;
+            width: 30px;
+            height: 30px;
+        }
+
+        .close-btn:hover {
+            color: #333;
+        }
+
+        .color-settings {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .color-setting {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 15px;
+            background: #f9f9f9;
+            border-radius: 10px;
+        }
+
+        .color-setting label {
+            font-weight: 600;
+            color: #333;
+        }
+
+        .color-input {
+            width: 60px;
+            height: 40px;
+            border: 2px solid #e0e0e0;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+
+        .modal-actions {
+            display: flex;
+            gap: 10px;
+            margin-top: 20px;
+            justify-content: flex-end;
+        }
+
+        .subscription-form {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .form-group {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+
+        .form-group label {
+            font-weight: 600;
+            color: #333;
+        }
+
+        .form-group input {
+            padding: 12px;
+            border: 2px solid #e0e0e0;
+            border-radius: 8px;
+            font-size: 1rem;
+        }
+
+        .form-group input:focus {
+            outline: none;
+            border-color: #667eea;
+        }
+
+        .info-box {
+            background: #e3f2fd;
+            padding: 15px;
+            border-radius: 8px;
+            border-left: 4px solid #2196f3;
+        }
+
+        .info-box p {
+            margin: 0;
+            font-size: 0.9rem;
+            color: #1565c0;
+        }
+
+        @media (max-width: 768px) {
+            .calendar-grid,
+            .visual-calendar {
+                grid-template-columns: 1fr;
+            }
+
+            .filter-section {
+                flex-direction: column;
+                align-items: stretch;
+            }
+
+            .actions-section {
+                flex-direction: column;
+            }
+
+            .view-toggle {
+                width: 100%;
+                justify-content: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="calendar-page">
+        <a href="./index-simple.html" class="back-link">← Back to Search</a>
+        
+        <div class="calendar-header">
+            <h1 id="schoolName">📅 School Calendar</h1>
+            <p class="subtitle">Academic Year 2025/2026</p>
+        </div>
+
+        <div class="calendar-controls">
+            <div class="filter-section">
+                <h3>Show:</h3>
+                <label class="filter-checkbox active" id="filter-term">
+                    <input type="checkbox" checked data-type="term">
+                    <span class="color-indicator" id="color-term"></span>
+                    <span>Term Dates</span>
+                </label>
+                <label class="filter-checkbox active" id="filter-halfTerm">
+                    <input type="checkbox" checked data-type="halfTerm">
+                    <span class="color-indicator" id="color-halfTerm"></span>
+                    <span>Half Terms</span>
+                </label>
+                <label class="filter-checkbox active" id="filter-holiday">
+                    <input type="checkbox" checked data-type="holiday">
+                    <span class="color-indicator" id="color-holiday"></span>
+                    <span>Bank Holidays</span>
+                </label>
+                <label class="filter-checkbox active" id="filter-inset">
+                    <input type="checkbox" checked data-type="inset">
+                    <span class="color-indicator" id="color-inset"></span>
+                    <span>INSET Days</span>
+                </label>
+            </div>
+
+            <div class="actions-section">
+                <div class="view-toggle">
+                    <button class="view-btn active" id="listViewBtn" data-view="list">📋 List</button>
+                    <button class="view-btn" id="calendarViewBtn" data-view="calendar">📅 Calendar</button>
+                </div>
+                <button class="btn btn-primary" id="downloadBtn">⬇️ Download Calendar</button>
+                <button class="btn btn-secondary" id="subscribeBtn">📧 Subscribe</button>
+                <button class="btn btn-secondary" id="settingsBtn">⚙️ Colors</button>
+            </div>
+        </div>
+
+        <!-- Calendar Legend -->
+        <div id="calendarLegend" class="calendar-legend" style="display: none;">
+            <div class="legend-items">
+                <div class="legend-item">
+                    <div class="legend-color" id="legend-term"></div>
+                    <span>Term Dates</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-color" id="legend-halfTerm"></div>
+                    <span>Half Terms</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-color" id="legend-holiday"></div>
+                    <span>Bank Holidays</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-color" id="legend-inset"></div>
+                    <span>INSET Days</span>
+                </div>
+                <div class="legend-item">
+                    <span style="font-weight: 600;">📍 = Today</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- List View -->
+        <div id="listView" class="calendar-view active">
+            <div id="calendarGrid" class="calendar-grid"></div>
+        </div>
+
+        <!-- Calendar View -->
+        <div id="calendarView" class="calendar-view">
+            <div id="visualCalendar" class="visual-calendar"></div>
+        </div>
+
+        <div id="noEvents" class="no-events" style="display: none;">
+            <p>No events to display. Try adjusting your filters above.</p>
+        </div>
+    </div>
+
+    <!-- Settings Modal -->
+    <div class="modal-overlay" id="settingsModal">
+        <div class="modal">
+            <div class="modal-header">
+                <h2>Color Settings</h2>
+                <button class="close-btn" onclick="closeModal('settings')">×</button>
+            </div>
+            <div class="color-settings">
+                <div class="color-setting">
+                    <label>Term Dates</label>
+                    <input type="color" class="color-input" id="colorInputTerm" value="#667eea">
+                </div>
+                <div class="color-setting">
+                    <label>Half Terms</label>
+                    <input type="color" class="color-input" id="colorInputHalfTerm" value="#764ba2">
+                </div>
+                <div class="color-setting">
+                    <label>Bank Holidays</label>
+                    <input type="color" class="color-input" id="colorInputHoliday" value="#f093fb">
+                </div>
+                <div class="color-setting">
+                    <label>INSET Days</label>
+                    <input type="color" class="color-input" id="colorInputInset" value="#4facfe">
+                </div>
+            </div>
+            <div class="modal-actions">
+                <button class="btn btn-secondary" onclick="resetColors()">Reset to Default</button>
+                <button class="btn btn-primary" onclick="closeModal('settings')">Done</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Subscription Modal -->
+    <div class="modal-overlay" id="subscriptionModal">
+        <div class="modal">
+            <div class="modal-header">
+                <h2>Subscribe to Calendar</h2>
+                <button class="close-btn" onclick="closeModal('subscription')">×</button>
+            </div>
+            <form class="subscription-form" onsubmit="handleSubscribe(event)">
+                <div class="info-box">
+                    <p>📧 Download the calendar file and import it into your email calendar application (Gmail, Outlook, Apple Calendar, etc.). Your calendar app will keep it updated automatically.</p>
+                </div>
+                <div class="form-group">
+                    <label for="email">Your Email (optional)</label>
+                    <input type="email" id="email" placeholder="your@email.com">
+                </div>
+                <div class="modal-actions">
+                    <button type="button" class="btn btn-secondary" onclick="closeModal('subscription')">Cancel</button>
+                    <button type="submit" class="btn btn-primary">📥 Get Calendar File</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="./public/calendar.js"></script>
+</body>
+</html>
